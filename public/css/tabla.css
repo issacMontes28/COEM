@@ -1,0 +1,56 @@
+table,th,td{
+	border:1px solid #666;
+	border-collapse:collapse;
+}
+table{
+	border:none;
+	border-top:1px solid #000;
+}
+thead th{
+	background:url(http://icant.co.uk/csstablegallery/greychrome.gif) top left repeat-x #fff;
+	padding:2px 5px;
+	font-size:90%;
+	text-transform:uppercase;
+	color:#333;
+}
+tbody td,tbody th{
+	font-size:90%;
+	padding:2px 5px;
+	background:#eee;
+}
+tbody th{
+	background:url(http://icant.co.uk/csstablegallery/bluechrome.gif) top left repeat-x #fff;
+	color:#333;
+}
+tbody tr.odd td{
+	background:#ddd;
+}
+tbody tr.odd th{
+	background:url(http://icant.co.uk/csstablegallery/greenchrome.gif) top left repeat-x #fff;
+	color:#333;
+}
+tfoot td,tfoot th{
+	border:none;
+	padding-top:10px;
+}
+caption{
+	font-family:Tahoma;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:80%;
+	padding:10px 0;
+	color:#036;
+}
+table a:link{
+	color:#369;
+}
+table a:visited{
+	color:#036;
+}
+table a:hover{
+	color:#000;
+	text-decoration:none;
+}
+table a:active{
+	color:#000;
+}

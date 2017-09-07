@@ -1,0 +1,30 @@
+.blog-grid {
+    visibility: hidden
+}
+.blog-grid.masonry {
+    overflow: inherit !important
+}
+.blog-grid .post {
+    width: 490px
+}
+.blog-grid .post .frame:before {
+    -moz-box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.7);
+    -webkit-box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.7);
+    box-shadow: inset 0 0 1px 0 rgba(255,255,255,0.7);
+}
+
+.blog-grid .post.not-found {
+    width: 100% !important
+}
+.error404 .searchform,
+.blog-grid .post.not-found .searchform {
+    max-width: 200px
+}
+.blog-grid .post.format-quote blockquote {
+    background: none
+}
+.blog-grid .post.format-quote {
+    background-image: url(style/images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}

@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: COEM
+        psr4_prefix: COEM
+        src_path: app
